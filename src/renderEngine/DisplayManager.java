@@ -7,7 +7,7 @@ public class DisplayManager {
 	private static final int WIDTH = 1280;
 	private static final int HEIGHT = 720;
 	private static final int STARTING_POINT_SCREEN = 0;
-	private static final int FPS_LIMIT = 60;
+	private static final int FPS_LIMIT = 240;
 
 	public static void attachDisplay(String titleText) {
 		ContextAttribs attrib = new ContextAttribs(3, 2)
