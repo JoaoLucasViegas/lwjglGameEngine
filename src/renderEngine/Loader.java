@@ -32,7 +32,7 @@ public class Loader {
 	}
 
 	public int loadTexture(String fileName) {
-		Texture texture = null;
+		Texture texture;
 		try {
 			texture = TextureLoader.getTexture(TEXTURE_FILE_EXT,
 					new FileInputStream("res/"+fileName+".png"));

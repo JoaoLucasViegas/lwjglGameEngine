@@ -12,6 +12,7 @@ public class Renderer {
 		GL11.glClearColor(1, 0, 0, 1);
 		GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
 	}
+
 	public void render(RawModel model) {
 		GL30.glBindVertexArray(model.getVaoID());
 		GL20.glEnableVertexAttribArray(0);
